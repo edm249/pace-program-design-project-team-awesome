@@ -1,0 +1,15 @@
+Hey guys, 
+
+I'm still figuring GitHub out, but I thought I'd add something onto here instead of the group so we can get started. 
+I know the project is like the discussion we had a few weeks back. 
+
+Some ideas: 
+
+We'll need a function that:
+
+creates the board, 2D array.
+Randomizes the symbols (#, ~) - could probably be part of create the board function too?
+We need a Fire function
+Searches for the symbols to check if the ship has sunk
+
+
