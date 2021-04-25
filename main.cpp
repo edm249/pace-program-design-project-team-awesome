@@ -12,8 +12,9 @@ struct BoardType
   int boardSize[MAX_SIZE][MAX_SIZE];
   int guess[MAX_SIZE][MAX_SIZE];
   char ocean = '~';
-    char ship = '#';
-
+  char ship = '#';
+  char shipHit = 'H';
+  char miss = '.';
 };
 
 //Pre: board contains information from struct BoardType
