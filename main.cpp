@@ -17,6 +17,10 @@ struct BoardType
   char miss = '.';
 };
 
+//pre: program will be up and running and prompted user for thier userchoice
+//post: program will call and use the appropriate functions. 
+void GameOptions(char userchoice);
+
 //Pre: board contains information from struct BoardType
 //Post: randomnize a board mixed with ~ for ocean and "#" for ship
 void InitBoard(BoardType &board);
@@ -80,5 +84,12 @@ bool isSunk(BoardType &board, int row, int col)
 //else
 return false;
 }
-
+//pre: program will be up and running and prompted user for thier userchoice
+//post: program will call and use the appropriate functions. 
+void GameOptions(char userchoice){
+ //use an if else to do the appopriate action for each menu option presented to the user. This keeps the main tidy and neat. 
+ // when called in main, use a do while user has not chosen to quit.
+ 
+ 
+}
 
