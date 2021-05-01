@@ -65,6 +65,7 @@ void Fire(BoardType &board, int &row, int &col)
 bool isHit(BoardType &board, int row, int col)
 {
 //if guess[row][col] == boardSize[row][col]
+  //change symbol found at rowcol to H to represent being hit
   //return true;
   
 //else
